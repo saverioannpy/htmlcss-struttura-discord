@@ -1,5 +1,90 @@
+/*********
+*  RESET *
+*********/
+
 * {
     margin: 0;  
     padding: 0;
     box-sizing: border-box;
+}
+
+/*********
+* DEBUG *
+*********/
+
+.debug header .topmenu > div{
+    border: 2px dashed black;
+}
+
+.debug header .jumbotron .content{
+    border: 2px dashed black;
+    height: 415px;
+}
+
+/*********
+* COMMON *
+*********/
+
+.container{
+    margin: 0 auto;
+}
+
+.container.medium{
+    max-width: 950px;
+}
+
+.container.big{
+    max-width: 1250px;
+}
+
+/*********
+* HEADER *
+*********/
+
+/* HEADER TOP */
+
+header .topbar{
+    background-color: #add8e6;
+    padding: 20px;
+}
+
+header .topmenu{
+    background-color: #daa520;
+    display: flex;
+}
+
+header .topmenu > div{
+    padding: 10px;
+}
+
+header .logotab,
+header .logintab{
+    width: 20%;
+}
+
+header .logotab{
+    text-align: left;
+}
+
+header .logintab{
+    text-align: right;
+}
+
+header .linktab{
+    text-align: center;
+}
+
+header .linktab{
+    width: 60%;
+}
+
+/* HEADER BOTTOM */
+
+.jumbotron{
+    background-color: #00008b;
+    padding: 50px;
+}
+
+header .jumbotron .content{
+    background-color: #ee82ee;
 }
