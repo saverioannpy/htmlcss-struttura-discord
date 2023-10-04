@@ -15,7 +15,8 @@
 .debug header .topmenu > div,
 .debug main .section .row > div,
 .debug main .section .rowbig > div,
-.debug footer .footertop .colsx{
+.debug footer .footertop .colsx,
+.debug footer .footerbottom .row > div{
     border: 2px dashed black;
 }
 
@@ -40,7 +41,7 @@
     height: 930px;
 }
 
-.debug footer .row{
+.debug .footertop .row{
     height: 600px;
 }
 /*********
@@ -171,4 +172,23 @@ footer .footertop .coldx{
 
 footer .footertop .coldx .divcoldx{
     width: 25%;
+}
+
+footer .footerbottom{
+    background-color: #7fffd4;
+}
+
+footer .footerlogo,
+footer .footerbutton{
+    margin: 20px 0px;
+    padding: 5px;
+    background-color: #ffb6c1;
+}
+
+footer .footerbottom .row{
+    margin-top: 30px;
+}
+
+footer .footerbottom .row{
+    justify-content: space-between;
 }
