@@ -12,7 +12,8 @@
 * DEBUG *
 *********/
 
-.debug header .topmenu > div{
+.debug header .topmenu > div,
+.debug main .section .row > div{
     border: 2px dashed black;
 }
 
@@ -25,6 +26,10 @@
     height: 520px;
 }
 
+.debug main .section .content{
+    border: 2px dashed black;
+    height: 930px;
+}
 /*********
 * COMMON *
 *********/
@@ -122,4 +127,8 @@ main .section .row .colbig{
 main .section .row .colsmall{
     width: 40%;
     background-color: #ffc0cb;
+}
+
+main .section .content{
+    background-color: #228b22;
 }
