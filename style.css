@@ -127,7 +127,7 @@ main .section{
     padding: 50px;
 }
 
-main .section:nth-child(even){
+main :nth-child(even of .section){
     background-color: #d3d3d3;
 } 
 
