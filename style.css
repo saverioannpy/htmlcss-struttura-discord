@@ -13,7 +13,8 @@
 *********/
 
 .debug header .topmenu > div,
-.debug main .section .row > div{
+.debug main .section .row > div,
+.debug main .section .rowbig > div{
     border: 2px dashed black;
 }
 
@@ -26,8 +27,11 @@
     height: 520px;
 }
 
-.debug main .section .content{
-    border: 2px dashed black;
+.debug main .section .rowbig{
+    height: 1000px;
+}
+
+.debug main .section .rowbig .colfull{
     height: 930px;
 }
 /*********
@@ -116,7 +120,6 @@ main .section:nth-child(even){
 
 main .row{
     display: flex;
-
 }
 
 main .section .row .colbig{
@@ -129,6 +132,6 @@ main .section .row .colsmall{
     background-color: #ffc0cb;
 }
 
-main .section .content{
+main .section .rowbig .colfull{
     background-color: #228b22;
 }
