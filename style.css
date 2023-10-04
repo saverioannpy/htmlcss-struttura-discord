@@ -21,6 +21,10 @@
     height: 415px;
 }
 
+.debug main .section .row{
+    height: 520px;
+}
+
 /*********
 * COMMON *
 *********/
@@ -42,6 +46,10 @@
 *********/
 
 /* HEADER TOP */
+
+header{
+border-bottom: 5px solid #add8e6;
+}
 
 header .topbar{
     background-color: #add8e6;
@@ -87,4 +95,31 @@ header .linktab{
 
 header .jumbotron .content{
     background-color: #ee82ee;
+}
+
+/*********
+*  MAIN  *
+*********/
+
+main .section{
+    padding: 50px;
+}
+
+main .section:nth-child(even){
+    background-color: #d3d3d3;
+} 
+
+main .row{
+    display: flex;
+
+}
+
+main .section .row .colbig{
+    width: 60%;
+    background-color: #1e90ff;
+}
+
+main .section .row .colsmall{
+    width: 40%;
+    background-color: #ffc0cb;
 }
