@@ -14,8 +14,13 @@
 
 .debug header .topmenu > div,
 .debug main .section .row > div,
-.debug main .section .rowbig > div{
+.debug main .section .rowbig > div,
+.debug footer .footertop .colsx{
     border: 2px dashed black;
+}
+
+.debug footer .footertop .coldx .divcoldx{
+    border: 2px dashed white;
 }
 
 .debug header .jumbotron .content{
@@ -34,6 +39,10 @@
 .debug main .section .rowbig .colfull{
     height: 930px;
 }
+
+.debug footer .row{
+    height: 600px;
+}
 /*********
 * COMMON *
 *********/
@@ -50,6 +59,9 @@
     max-width: 1250px;
 }
 
+.row{
+    display: flex;
+}
 /*********
 * HEADER *
 *********/
@@ -118,9 +130,6 @@ main .section:nth-child(even){
     background-color: #d3d3d3;
 } 
 
-main .row{
-    display: flex;
-}
 
 main .section .row .colbig{
     width: 60%;
@@ -134,4 +143,32 @@ main .section .row .colsmall{
 
 main .section .rowbig .colfull{
     background-color: #228b22;
+}
+
+/***********
+*  FOOTER  *
+***********/
+
+footer{
+    padding-top: 10px;
+    background-color: #23272a;
+}
+
+footer .footertop{
+    margin-bottom: 40px;
+}
+
+footer .footertop .colsx{
+    background-color: #f08080;
+    width: 20%;
+}
+
+footer .footertop .coldx{
+    background-color: #20b2aa;
+    width: 80%;
+    display: flex;
+}
+
+footer .footertop .coldx .divcoldx{
+    width: 25%;
 }
